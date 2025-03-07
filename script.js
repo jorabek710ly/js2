@@ -122,26 +122,7 @@
 
     }
 }
-{ // masala 6
-    let olcham = 3;
-    let metr = 1;
-    switch (metr) {
-        case 1:
-            console.log("1dm = 10m", olcham * 10, "m");
-            break;
-        case 2:
-            console.log("1km = 1000m", olcham * 1000, "m");
-            break;
-        case 3:
-            console.log("1m = 1m", olcham * 1, "m");
-            break;
-        case 4:
-            console.log("1mm = 0.0001m", olcham * 0.0001, "m");
-            break;
-        case 5:
-            console.log("1sm =  0.01m", olcham * 0.01, "m");
-    }
-}
+
 { // masala 7 
     let massa = 3;
     let kg = 5;
@@ -163,6 +144,7 @@
     }
 }
 { // masala 8  
+
 
     let kun = 30;
     let oy = 6;
@@ -288,7 +270,7 @@
 { // 2.4 masala
     let w = 10
     let h = 1
-    if (w === h) {
+    if (w == h) {
         console.log("bu kvadrat");
 
     } else {
@@ -398,14 +380,11 @@
     }
 
 }
-{ //masala 4
-    let narx = 10000
 
-    for (let i = 1; i <= 10; i++) {
-        console.log(i + " kg konfet narxi: " + (i * narx) + " so'm");
-    }
 
-}
+//4-masala
+
+
 { //masala 5
     let narx = 3000
 
